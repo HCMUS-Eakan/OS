@@ -34,6 +34,6 @@ Thực hiện bởi:
    	
    	>Lệnh trên đọc 4 byte từ file thiết bị `/dev/random` và xuất ra màn hình Terminal dưới dạng kí tự hexa (dùng lệnh `hexdump`). Chạy lệnh này nhiều lần, mỗi lần sẽ cho ra các kết quả ngẫu nhiên khác nhau. Tương tự với tập tin thực thi **test**, nhưng kết quả hiển thị là số thập phân.
    	
-   6. Để gỡ module này, gõ lệnh `sudo rmmod random`
+   6. Để gỡ module này, gõ lệnh `sudo rmmod randNum`
    
    7. Để dọn sạch các file được tạo ra trong thư mục trong quá trình biên dịch, gõ lệnh `make clean`
