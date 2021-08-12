@@ -23,17 +23,15 @@ Thực hiện bởi:
    4. Gõ lệnh `lsmod | grep randNum` để xem module đã được cài đặt thành công chưa
    
    5. Để đọc một số ngẫu nhiên từ device này, ta dùng lệnh sau :
-	   ```
-      sudo dd if=/dev/random bs=4 count=1 | hexdump -C      
-      ```
-      hoặc biên dịch file mã nguồn **testRand.c** bằng lệnh
+      Biên dịch file mã nguồn **testRand.c** bằng lệnh
       ```  	
       gcc testRand.c -o test
       ```
-      rồi chạy tập tin thực thi **test** 
-   	
-   	>Lệnh trên đọc 4 byte từ file thiết bị `/dev/random` và xuất ra màn hình Terminal dưới dạng kí tự hexa (dùng lệnh `hexdump`). Chạy lệnh này nhiều lần, mỗi lần sẽ cho ra các kết quả ngẫu nhiên khác nhau. Tương tự với tập tin thực thi **test**, nhưng kết quả hiển thị là số thập phân.
-   	
+      rồi chạy tập tin thực thi **test** bằng lệnh
+      ```
+      ./test
+      ```
+   
    6. Để gỡ module này, gõ lệnh `sudo rmmod randNum`
    
    7. Để dọn sạch các file được tạo ra trong thư mục trong quá trình biên dịch, gõ lệnh `make clean`
