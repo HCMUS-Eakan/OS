@@ -30,8 +30,6 @@ static int my_close(struct inode *i, struct file *f)
 
 static ssize_t my_read(struct file *f, char __user *buf, size_t len, loff_t *off)
 {
-    // generate a random non-negative integer (4 bytes)
-       
     printk(KERN_INFO "Driver: read()\n");
     get_random_bytes(&rVal, 4);
     
