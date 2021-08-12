@@ -1,6 +1,6 @@
 # Hệ điều hành
 
-# Đồ án 3 : Linux Kernel ![license][1]
+# Đồ án 3 : Linux Kernel
 
 Thực hiện bởi: 	
 * Nguyễn Quang Trường - MSSV: `19127608`
@@ -37,6 +37,3 @@ Thực hiện bởi:
    6. Để gỡ module này, gõ lệnh `sudo rmmod random`
    
    7. Để dọn sạch các file được tạo ra trong thư mục trong quá trình biên dịch, gõ lệnh `make clean`
-   
-  
-[1]:https://camo.githubusercontent.com/7de7f171e34eba428ffe0a84a2b2297431f55ac3/68747470733a2f2f696d672e736869656c64732e696f2f636f636f61706f64732f6c2f537769667453696d706c6966792e7376673f7374796c653d666c6174
