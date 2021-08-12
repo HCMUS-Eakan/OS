@@ -7,7 +7,7 @@ Thực hiện bởi:
 * Nguyễn Trần Ngọc Tú - MSSV: `19127610`
 * Đỗ Đình Văn         - MSSV: `19127624` 
 
-## KernelModule : Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và device trong linux, giao tiếp giữa tiến trình ở user space và kernel space.
+## Kernel Module : Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và device trong linux, giao tiếp giữa tiến trình ở user space và kernel space.
 - Viết một module dùng để tạo ra số ngẫu nhiên.
 - Module này sẽ tạo một character device để cho phép các tiến trình ở user space có thể open và read các số ngẫu nhiên
    ### Linux Kernel Module - Random Number Generator Character Device Driver
